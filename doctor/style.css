@@ -1,0 +1,175 @@
+
+/*css reset code*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Arial;
+	font-size:16px;
+	line-height:20px;
+	color:#000;
+}
+
+
+
+.main{
+	width:960px;
+	margin:50px auto;
+	display:block;
+	overflow:hidden;
+	
+}
+.mainmenu{
+	background:#006A7F;
+	overflow:hidden;
+	height:66px;
+}
+.logo {
+	display:inline-block;
+}
+.logo img {
+    height: 100%;
+    width: 115px;
+}
+ .nav{
+	display:inline-block;
+	float:right;
+	 
+ }
+.mainmenu ul{
+	margin:0;
+	padding:10px;
+	list-style:none;
+	
+}
+.mainmenu ul li{
+	float:left;
+	border-right: 1px solid #fff;	
+}
+.mainmenu ul li:last-child {
+    border-right: 0;
+}
+.mainmenu ul li a{
+	display:block;
+	color:#fff;
+	padding:10px 35px;
+	text-decoration:none;
+}
+.mainmenu ul li a:hover{
+	background:#891829;
+}
+.header{
+	
+}
+/* .header img{
+	width:960px;
+	float:left;
+} */
+.slider{}
+.slider img{
+	width:960px;
+}
+.maincontent{
+	overflow:hidden;
+	margin-top:35px;
+}
+.titlecontent{
+	float:left;
+	width:600px;
+	margin-right:60px;
+}
+.titlecontent h2{
+	
+	margin-bottom:30px;
+}
+.titlecontent p{
+	text-align:justify;
+	font-size:16px;
+}
+
+.titlecontent img{
+	
+	float:right;
+	width:300px;
+	height:300px;
+}
+
+.sidecontent{
+	float:right;
+	width:300px;
+	
+	
+}
+.sidecontent h2{
+	margin-bottom:30px;
+}
+
+.sidecontent ol{
+  
+  list-style-type: decimal; 
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-left: 5px;
+  
+ 
+ 
+ 
+}
+.sidecontent ol li{
+	
+	margin-top:15px;
+	border-bottom:1px solid #ededed;
+	
+	
+}
+.sidecontent ol li a{
+	text-decoration:none;
+	color:#903241;
+	font-weight:bold;
+	padding:10px;
+	font-size:20px;
+	
+	
+}
+.sidecontent ol li a:hover{
+	
+	
+}
+
+.footer{
+	background:#006A7F;
+	margin-top:50px;
+	color:#fff;
+	padding:20px;
+}
+.copyright{
+	display:inline-block;
+	padding:6px 0;
+}
+.footermenu{
+	float:right;
+}
+.footermenu ul{
+	margin:0 ;
+	padding:0;
+	list-style:none;
+}
+.footermenu ul li{
+	float:left;
+	border-right:1px solid #fff;
+}
+.footermenu ul li:last-child{
+	border-right:0;
+}
+.footermenu ul li a{
+	line-height:15px;
+	display:block;
+	padding:10px 20px;
+	text-decoration:none;
+	color:#fff;
+}
+.footermenu ul li a:hover{
+	background:#A2A8D3;
+}
